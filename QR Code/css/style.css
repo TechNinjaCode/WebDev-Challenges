@@ -9,14 +9,21 @@
 .attribution {
     font-size: 11px; 
     text-align: center; 
-    color: hsl(228, 45%, 44%); 
+    position: absolute;
+    bottom: 125px;
+    left: 0;
+    right: 0;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
 
 body {
 
     font-family: "Outfit", sans-serif;
     background-color: hsl(212, 45%, 89%);
-
+    font-size: 15px;
 }
 
 .qr-container {
@@ -28,29 +35,57 @@ body {
 }
 
 .qr-box {
+    position: relative;
     width: 350px;
-    padding: 20px 20px 30px;
+    padding: 15px 15px 40px;
     border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 
 }
 
 .qr-image{
-    border-radius: 10px;
+    border-radius: 15px;
     max-width: 100%;
+    margin-bottom: 15px;
 }
 
-p {
-    font-size: 15px;
-    margin-top: 20px;
+.qr-box h1 {
+    font-size: 20px;
     text-align: center;
-   
-}
-
-.heading{
+    color: hsl(218, 44%, 22%);
     font-weight: 700;
+    margin-bottom: 15px;
+   }
+
+.qr-box p {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
 }
 
-.sub-heading {
-    font-weight: 400;
+
+
+@media screen and (max-width: 375px) {
+
+   
+    .qr-box {
+        width: 300px;
+        margin-top: -300px;
+    }
+
+    .attribution {
+        font-size: 15px;
+        display: block;
+        margin-bottom: 150px;
+        padding-top: 5px;
+    }
+
+    .qr-box h1 {
+        font-size: 16px; 
+    }
+
+    .qr-box p {
+        font-size: 12px; 
+    }
 }
