@@ -15,7 +15,6 @@
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -25,15 +24,9 @@
 ![](.//images/screenshot/QR_Code-MobileView.jpg)
 
 
-
-
-
-
-
-
 ### Links
 
-- Solution URL: https://github.com/TechNinjaCode/WebDev-Challenges/tree/main/QRCode
+- Solution URL: https://github.com/TechNinjaCode/WebDev-Challenges/tree/main/QR%20Code
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -84,11 +77,5 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ## Author
 
-- GitHub - [YourUsername](https://github.com/](https://github.com/TechNinjaCode)
+- GitHub - https://github.com/](https://github.com/TechNinjaCode
 
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
