@@ -41,19 +41,10 @@
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+- **HTML Clarity**: I honed my ability to structure HTML in a way that's clear and accessible, making it easier for users and developers alike to understand.
+
+- **CSS Aesthetics**: I experimented with CSS to create visually appealing designs that complemented the functionality of the QR code component, using colors and layouts effectively.
+
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
