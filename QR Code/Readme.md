@@ -33,7 +33,7 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](QR Code)
+- Solution URL: [https://github.com/TechNinjaCode/WebDev-Challenges/tree/main/QR%20Code](QR Code)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
