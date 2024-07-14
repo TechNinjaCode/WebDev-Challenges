@@ -68,5 +68,5 @@ If you want more help writing markdown, we recommend checking out [The Markdown 
 
 ## Author
 
-- GitHub - https://github.com/](https://github.com/TechNinjaCode
+- GitHub - https://github.com/TechNinjaCode
 
