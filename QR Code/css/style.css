@@ -11,7 +11,7 @@
     font-size: 11px; 
     text-align: center; 
     position: absolute;
-    bottom: 170px;
+    top: 725px;
     left: 0;
     right: 0;
 }
@@ -71,16 +71,18 @@ body {
 
    
     .qr-box {
-        width: 300px;
+        width: 300px;   
         margin-top: -300px;
     }
 
     .attribution {
         position: absolute;
-        font-size: 15px;
+        font-size: 13px;
         display: block;
-        margin-bottom: 170px;
-        padding-top: 5px;
+        text-align: center; 
+        top: 570px;
+        left: 0;
+        right: 0;
     }
 
     .qr-box h1 {
