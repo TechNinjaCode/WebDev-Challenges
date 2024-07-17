@@ -21,6 +21,10 @@ body {
   border-radius: 10px;
   padding: 20px;
   width: 300px;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 6px solid black;
+  border-bottom: 6px solid black;
 }
 
 .illustration {
