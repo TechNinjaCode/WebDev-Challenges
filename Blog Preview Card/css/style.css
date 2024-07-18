@@ -21,12 +21,9 @@ body {
   background-color: white;
   padding: 15px;
   width: 280px;
-  border-left: 1px solid black;
-  border-top: 1px solid black;
-  border-right: 6px solid black;
-  border-bottom: 6px solid black;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 15px;
+  box-shadow: 6px 6px 0 0;
 }
 
 .illustration {
@@ -38,7 +35,7 @@ h4 {
   display: inline-block;
   font-size: 0.8rem;
   margin: 10px 0;
-  padding: 3px 7px;
+  padding: 4px 10px;
   border-radius: 5px;
   color: hsl(0, 0%, 7%);
   font-weight: 700;
@@ -46,12 +43,20 @@ h4 {
 }
 h6 {
   color: hsl(0, 0%, 7%);
+  font-size: 0.8rem;
+  margin-bottom: 12px;
 }
 
 h2 {
   font-size: 1rem;
   margin: 10px 0;
   font-weight: 700;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+h2:hover {
+  color: hsl(47, 88%, 63%);
 }
 
 p {
@@ -81,9 +86,9 @@ p {
 
 .attribution {
   position: absolute;
-  bottom: 250px;
+  bottom: 245px;
   left: 50%;
-  transform: translateX(-50%) translateY(50%);
+  transform: translateX(-50%);
   margin: 10px 0;
   font-size: 0.6rem;
   font-weight: 500;
@@ -93,4 +98,51 @@ p {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Responsive Design  */
+
+@media (max-width: 375px) {
+  .container {
+    height: 100%;
+  }
+
+  .card {
+    width: 90%;
+    margin: 10px;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+  }
+
+  h4 {
+    font-size: 0.7rem;
+  }
+
+  h6 {
+    font-size: 0.7rem;
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
+
+  .avatar {
+    width: 30px;
+  }
+
+  .attribution {
+    bottom: 500px;
+    position: absolute;
+  }
+
+  .author p {
+    font-size: 0.6rem;
+  }
+
+  .illustration {
+    width: 100%;
+    border-radius: 10px;
+  }
 }
