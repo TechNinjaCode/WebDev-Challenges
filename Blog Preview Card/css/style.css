@@ -17,8 +17,9 @@ body {
 }
 
 .card {
+  position: relative;
   background-color: white;
-  padding: 20px;
+  padding: 15px;
   width: 280px;
   border-left: 1px solid black;
   border-top: 1px solid black;
@@ -30,11 +31,12 @@ body {
 
 .illustration {
   width: 100%;
+  border-radius: 10px;
 }
 
-h3 {
+h4 {
   display: inline-block;
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin: 10px 0;
   padding: 3px 7px;
   border-radius: 5px;
@@ -42,14 +44,53 @@ h3 {
   font-weight: 700;
   background-color: hsl(47, 88%, 63%);
 }
-
 h6 {
   color: hsl(0, 0%, 7%);
-  font-weight: 500;
 }
 
 h2 {
   font-size: 1rem;
   margin: 10px 0;
   font-weight: 700;
+}
+
+p {
+  font-size: 0.7rem;
+  color: hsl(0, 0%, 50%);
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.avatar {
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.author {
+  display: flex;
+  margin: 20px 0 0;
+  justify-content: flex-start;
+}
+
+.author p {
+  font-size: 0.7rem;
+  color: hsl(0, 0%, 7%);
+  font-weight: 700;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 250px;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%);
+  margin: 10px 0;
+  font-size: 0.6rem;
+  font-weight: 500;
+  color: hsl(0, 0%, 7%);
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
