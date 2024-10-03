@@ -15,7 +15,6 @@
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-
 ## Overview
 
 ### Screenshot
@@ -23,11 +22,10 @@
 ![](.//images/screenshot/QR_Code-DesktopView.jpg)
 ![](.//images/screenshot/QR_Code-MobileView.jpg)
 
-
 ### Links
 
 - Solution URL: https://github.com/TechNinjaCode/WebDev-Challenges/tree/main/QR%20Code
-- Live Site URL: https://your-live-site-url.com)](https://web-challenges.pages.dev/
+- Live Site URL: https://web-challenges.pages.dev/
 
 ## My process
 
@@ -37,7 +35,7 @@
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- 
+-
 
 ### What I learned
 
@@ -45,9 +43,7 @@
 
 - **CSS Aesthetics**: I experimented with CSS to create visually appealing designs that complemented the functionality of the QR code component, using colours and layouts effectively.
 
-
 If you want more help writing markdown, we recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
 
 ### Continued development
 
@@ -60,7 +56,6 @@ If you want more help writing markdown, we recommend checking out [The Markdown 
 7. Git Version Control
 8. Documentation
 
-
 ### Useful resources
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web) - Comprehensive HTML, CSS, and JavaScript documentation. This is my go-to resource for learning about web technologies and understanding their usage.
@@ -69,4 +64,3 @@ If you want more help writing markdown, we recommend checking out [The Markdown 
 ## Author
 
 - GitHub - https://github.com/TechNinjaCode
-
