@@ -34,16 +34,17 @@ body {
 h4 {
   display: inline-block;
   font-size: 0.8rem;
-  margin: 10px 0;
+  margin: 10px 0 0 0;
   padding: 4px 10px;
   border-radius: 5px;
   color: hsl(0, 0%, 7%);
   font-weight: 700;
   background-color: hsl(47, 88%, 63%);
 }
-h6 {
+.published {
   color: hsl(0, 0%, 7%);
   font-size: 0.8rem;
+  font-weight: 700;
   margin-bottom: 12px;
 }
 
